@@ -33,7 +33,7 @@ This directory contains several folders and files used in different stages of ma
 
 # Generation of Mordred Chemical Descriptors from SDF files
 
-The command-line version of [Mordred](https://github.com/mordred-descriptor/mordred) package (version 1.2.0) was used as following on each SDF file:
+The command-line version of [Mordred](https://github.com/mordred-descriptor/mordred) package (version 1.2.0) was used as following on each 3D SDF file:
 
 
 <pre>
