@@ -31,6 +31,10 @@ This folder contains CSV files of Mordred chemical descriptors derived from SDF 
 ## ML_CSVs
 This directory contains several folders and files used in different stages of machine learning models used in the jupyter notebooks. 
 
+## LASSO_coefficients
+This directory contains the coefficients of logistic regression models used throughout the machine learning analysis. 
+
+
 # Generation of Mordred Chemical Descriptors from SDF files
 
 The command-line version of [Mordred](https://github.com/mordred-descriptor/mordred) package (version 1.2.0) was used as following on each 3D SDF file:
