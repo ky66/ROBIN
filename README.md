@@ -10,7 +10,7 @@
 ## notebooks
 This directory contains the following jupyter notebooks:
 1. <ins>ML_Models_ROBIN_RNA_vs_FDA.ipynb</ins>: 
-This notebook contains the code used for comparison of the ROBIN RNA-binding library with a set of FDA-approved drugs. 
+This notebook contains the code used for comparison of the ROBIN RNA binders with a set of FDA-approved drugs. 
 2. <ins>ML_Models_ROBIN_RNA_vs_BindingDB.ipynb</ins>: 
 This notebook contains the approach used for classification of the ROBIN RNA binders and BindingDB protein binders. 
 
