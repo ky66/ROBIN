@@ -34,6 +34,14 @@ This directory contains several folders and files used in different stages of ma
 ## LASSO_coefficients
 This directory contains the coefficients of logistic regression models used throughout the machine learning analysis. 
 
+## SMM_full_results
+This directory contains full results of small molecule microarray (SMM) screening against 36 nucleic acid targets. Four files are included in this directory as following:
+1. SMM_Biomolecule_Hits.csv: This CSV file contains information about whether each SMM molecule was a hit for any nucleic acid, RNA, DNA, or G-quadruplex. 
+2. SMM_Sequence_Table_hit_rates.csv: This CSV file contains information about each nucleic acid target screened via SMM. Included are sequence, structure type, and hit rates for each nucleic acid target. 
+3. SMM_Target_Hits.csv: This file contains information about whether each SMM compound was a hit for each nucleic acid target. 
+4. SMM_Zscore_CV.csv: This file contains the raw results of SMM screening against each nucleic acid target. For each compound, two replicate spots were printed on the slide. The results of each SMM screen is reported as following:
+a) Z_score_treated: Initial average Z-score of replicate compound spots on the slide b) Z-final: Initial Z-score of each compound subtracted from the Z-score of the compound on the buffer slide to remove the effect of autofluorescent compounds. c) CV: Coefficient of variation of two replicate compound spots on the slide. 
+
 
 # Generation of Mordred chemical descriptors from SDF files
 
