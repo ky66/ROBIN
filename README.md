@@ -49,6 +49,10 @@ a) Z_score_treated: Initial average Z-score of replicate compound spots on the s
 This directory contains the architecture and weights of the final MLP model to be run on new compounds to predict the chance of RNA over protein binding. 
 
 
+## Substructure_searching
+This directory contains the substructures used for substructure enrichment analysis of ROBIN RNA binders performed in the paper. More details can be found in the methods and results section of the paper. 
+
+
 
 # Generation of Mordred chemical descriptors from SDF files
 
