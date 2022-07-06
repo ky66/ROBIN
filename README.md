@@ -1,7 +1,7 @@
 
-# ROBIN: An Experimentally-derived Nucleic Acid Binding Library Informs RNA-binding Chemical Space
+# Machine Learning Informs RNA-Binding Chemical Space
 
-**<ins>R</ins>epository <ins>O</ins>f <ins>BI</ins>nders to <ins>N</ins>ucleic acids (ROBIN)** is a new experimentally-derived nucleic acid binding small molecule library. This chemical library was curated by small molecule microarray (SMM) screening of 36 nucleic acid targets against a library of 24,579 small molecules. Here, we have included the code used for generation of machine learning models and figures published in the following paper:  <br>
+**<ins>R</ins>epository <ins>O</ins>f <ins>BI</ins>nders to <ins>N</ins>ucleic acids (ROBIN)** is a new experimentally-derived nucleic acid binding small molecule library. This chemical library was curated by small molecule microarray (SMM) screening of 36 nucleic acid targets against a library of 24,572 small molecules. Here, we have included the code used for generation of machine learning models and figures published in the following paper:  <br>
 [put the DOI of the paper]
 
 
@@ -51,6 +51,9 @@ This directory contains the architecture and weights of the final MLP model to b
 
 ## Substructure_searching
 This directory contains the substructures used for substructure enrichment analysis of ROBIN RNA binders performed in the paper. More details can be found in the methods and results section of the paper. 
+
+## TMAP
+This directory contains the interactive HTML file of the TMAP shown in the paper. 
 
 
 
