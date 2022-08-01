@@ -26,7 +26,24 @@ This is the directory used for depositing figures produced by the python code in
 Since the starting datasets used for machine learning are large, they are deposited in figshare at the following URL
 ([put figshare url]). After cloning this repository, the folders from figshare should be copied to the data directory of this github respository to be used in the jupyter notebooks. The mentioned fishare URL includes the following folders:
 1. <ins>SDF_files</ins>: 
-This folder contains the SDF files of compounds used in machine learning models. 
+This folder contains the SDF files of compounds used in machine learning models. The SDF_files folder contains the following files":
+
+    a) BindingDB_3D.sdf: This file contains protein binders from BindingDB used for classification of RNA- and protein-binding compounds. 
+    
+    b) FDA_Approved_3D.sdf: This file contains a set of FDA-approved drugs extracted from Selleck Chemicals used for classification of RNA binding compounds and FDA-approved drugs. 
+
+    c) ROBIN_DNA_and_RNA_Binders_3D.sdf: This file contains the entire collection of compounds in the ROBIN library which bound to a DNA or RNA target on small molecule microarrays (SMMs). 
+
+    d) ROBIN_Plus_3D.sdf: This file contains the compounds extracted from the ZINC database used to augment RNA binders in classification of RNA and protein binders. 
+
+    e) ROBIN_RNA_Binders_3D.sdf: This file contains the compounds from ROBIN that bound to at least one RNA target. 
+
+    f) SMM_All_Compounds_3D.sdf: This file contains the entire composition of the SMM  library used to screen nucleic acid targets. 
+
+    g) SMM_RNA_Non_Binder_3D.sdf: This file contains the collection of compounds screened via SMM that did not bind to any RNA target. 
+
+    h) Test_Compounds_3D.sdf: The file contains 8 compounds from the literature with well-characterized RNA- or protein-binding activity used to validate the performance of the RNA/protein classifier described in the paper. 
+
 2. <ins>Mordred_files</ins>: 
 This folder contains CSV files of Mordred chemical descriptors derived from SDF files mentioned above. 
 
@@ -53,7 +70,7 @@ This directory contains the architecture and weights of the final MLP model to b
 This directory contains the substructures used for substructure enrichment analysis of ROBIN RNA binders performed in the paper. More details can be found in the methods and results section of the paper. 
 
 ## TMAP
-This directory contains the interactive HTML file of the TMAP shown in the paper. 
+This directory contains the interactive HTML file of the TMAP shown in the paper. Included are two versions of the heatmaps. 
 
 
 
