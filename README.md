@@ -32,7 +32,7 @@ This folder contains the SDF files of the compounds used in machine learning mod
     
     b) FDA_Approved_3D.sdf: This file contains a set of FDA-approved drugs extracted from Selleck Chemicals used for classification of RNA binding compounds and FDA-approved drugs. 
 
-    c) ROBIN_DNA_and_RNA_Binders_3D.sdf: This file contains the entire collection of compounds in the ROBIN library which bound to a DNA or RNA target on small molecule microarrays (SMMs). 
+    c) ROBIN_DNA_and_RNA_Binders_3D.sdf: This file contains the entire collection of compounds in the ROBIN library which bound to at least one DNA or RNA target on SMM. 
 
     d) ROBIN_Plus_3D.sdf: This file contains the compounds extracted from the ZINC database used to augment RNA binders in classification of RNA and protein binders. 
 
