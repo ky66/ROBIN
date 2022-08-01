@@ -23,8 +23,8 @@ This is the directory used for depositing figures produced by the python code in
 
 ## data
 
-Since the starting datasets used for machine learning are large, they are deposited in figshare at the following URL
-(https://doi.org/10.6084/m9.figshare.20401974). After cloning this repository, the folders from figshare should be copied to the data directory of this github respository to be used in the jupyter notebooks. The mentioned fishare URL includes the following folders:
+Since the starting datasets used for machine learning are large, they are deposited in Figshare at the following URL
+(https://doi.org/10.6084/m9.figshare.20401974). After cloning this repository, the folders from Figshare should be copied to the data directory of this github respository to be used in the jupyter notebooks. The mentioned fishare URL includes the following folders:
 1. <ins>SDF_files</ins>: 
 This folder contains the SDF files of compounds used in machine learning models. The SDF_files folder contains the following files":
 
