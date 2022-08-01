@@ -42,7 +42,7 @@ This folder contains the SDF files of the compounds used in machine learning mod
 
     g) SMM_RNA_Non_Binder_3D.sdf: This file contains the collection of compounds screened via SMM that did not bind to any RNA target. 
 
-    h) Test_Compounds_3D.sdf: The file contains 8 compounds from the literature with well-characterized RNA- or protein-binding activity used to validate the performance of the RNA/protein classifier described in the paper. 
+    h) Test_Compounds_3D.sdf: The file contains 8 compounds from the literature with well-characterized RNA- or protein-binding activity used to validate the performance of the RNA/protein binding classifier described in the paper. 
 
 2. <ins>Mordred_files</ins>: 
 This folder contains CSV files of Mordred chemical descriptors derived from SDF files mentioned above. 
