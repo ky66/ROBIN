@@ -2,7 +2,7 @@
 # Machine Learning Informs RNA-Binding Chemical Space
 
 **<ins>R</ins>epository <ins>O</ins>f <ins>BI</ins>nders to <ins>N</ins>ucleic acids (ROBIN)** is a new experimentally-derived nucleic acid binding small molecule library. This chemical library was curated by small molecule microarray (SMM) screening of 36 nucleic acid targets against a library of 24,572 small molecules. Here, we have included the code used for generation of machine learning models and figures published in the following paper:  <br>
-https://www.biorxiv.org/content/10.1101/2022.08.01.502065v1.full.pdf
+(https://www.biorxiv.org/content/10.1101/2022.08.01.502065v1.full.pdf)
 
 
 # Directories
