@@ -84,7 +84,7 @@ python -m mordred -3 [SDF file] -o [output CSV file]
 
 --Please note that the Mordred package uses an RDKit backend. The RDkit version used for generation of Mordred descriptors was 2018.09.1. First, make a new conda environment and install RDKit on there using the command (conda install -c rdkit rdkit=2018.09.1). 
 
---Also, based on testing on multiple computers, the prediction of models might not be exactly the same with the same packages installed. We observed about 1% variability in predictions run by different lab members with the same package. 
+--Also, based on testing on multiple computers, the prediction of models might not be exactly the same with the same packages installed. We observed about 1% variability in predictions run by different lab members with the same packages installed. 
 
 # How to use the MLP model on new compounds
 First, prepare an SDF file of your compounds and generate a single 3D conformer for each compound using DataWarrior’s “Generate Conformers” functionality. Use DataWarrior’s “Systematic, low energy bias” algorithm to minimize energy using the MMFF94s+ forcefield with initial torsions adjusted to “From crystallographic database”. After the generation of 3D conformers, use ICM-Pro (version 3.9) modeling software (MolSoft LLC) to remove salts and explicit hydrogens (Chemistry/Standardize/Remove Salts, Remove Explicit Hydrogens) from each compound. In addition, standardize groups and tautomers to ensure consistency of the chemical structures (Chemistry/Standardize/Standardize Groups, Standardize Tautomers). Next, set formal charges for ionizable groups at pH 7.4 consistent with the pH used in our SMM screening buffers (Set Formal Charges/Auto Using pKa Model/pH Value:7.40).
